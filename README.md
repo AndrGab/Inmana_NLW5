@@ -1,19 +1,23 @@
-# Inmana
+# NEXT LEVEL WEEK 5 - Inmana
 
-To start your Phoenix server:
+API to handle Restaurants Inventory
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+Api para controle de estoque de restaurantes:
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## Rotas:
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+#### Welcomer
+Boas vindas
+#### Restaurants (CRUD)
+Cadastro, Leitura, Alteração e Exclusão de Restaurantes
 
-## Learn more
+#### Supplies (Inclusão de Suprimentos)
+Inclusão de Suprimentos por Restautante
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+
+## Features
+
+- Envio de Emails
+- Agendamento de envio de emails com GenServer
+- Testes automátizados
+
